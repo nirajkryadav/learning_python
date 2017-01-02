@@ -21,6 +21,13 @@ print hasattr(e1,'sal')
 print getattr(e1,'sal')
 print learn.count
 
+#build in functions
+
+print ("learn.__doc__:", learn.__doc__)
+print ("learn.__name__:", learn.__name__)
+print ("learn.__module__:", learn.__module__)
+print ("learn.__dict__:", learn.__dict__)
+
 
 
 
