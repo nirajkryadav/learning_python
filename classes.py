@@ -1,4 +1,5 @@
 class learn(object):  #classs 
+	"example for learning classes"
 
 	count=0			#sared among all instance of the class 
 	def __init__(self,name,sal):  #constructor f(x) of the class
@@ -12,8 +13,16 @@ class learn(object):  #classs
 			print "name :", self.name,"salary:",self.sal
 e1= learn("niraj",3000)#object of the class 
 e2= learn("pankaj",3000)
+e3= learn("akshit",3000)
 e1.displayemp() #f(x) call using object
 e2.displayemp()
+print hasattr(e1,'salary')
+print hasattr(e1,'sal')
+print getattr(e1,'sal')
 print learn.count
+
+
+
+
 
 	
