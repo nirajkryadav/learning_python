@@ -16,7 +16,6 @@ e2= learn("pankaj",3000)
 e3= learn("akshit",3000)
 e1.displayemp() #f(x) call using object
 e2.displayemp()
-print e1.count
 print hasattr(e1,'salary')
 print hasattr(e1,'sal')
 print getattr(e1,'sal')
