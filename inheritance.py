@@ -22,4 +22,5 @@ c.getattr()
 
 print (issubclass(child,parent))
 print (isinstance(c,child))
+print dir(c)
 
